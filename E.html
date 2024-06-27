@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOLA'S market</title>
+    <link rel="stylesheet" href="./e.css" />
+    <link href="lmlm.html">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./e.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html">
+            <img src="./lola market.gif" alt="" width="125px"/>
+        </a>
+        </div>
+        <nav>
+          <ul id="MenuItems" class="menu">
+            <li><a href="E.html">Home</a></li>
+            <li><a href="lmlm.html">Products</a></li>
+            
+            <li><a href="./form.html">Contact</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html"
+          ><img
+            src="./ic.jpeg"
+            alt=""
+            width="30px"
+            height="30px"
+        /></a>
+        <img
+          src="./ic.jpeg"
+          alt=""
+          class="menu-icon"
+          onclick="menutoggle()"
+        />
+      </div>
+    </div>
+
+    <!-- Cart Items Details -->
+    <div class="small-container cart-page">
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./rp1.jpeg" alt="" />
+              <div>
+                <p>Red Printed T-shirt</p>
+                <small>Price: $20.00</small>
+                <br />
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="nunber" value="1" /></td>
+          <td>50.00$</td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./rp2.jpeg" alt="" />
+              <div>
+                <p>Red Printed T-shirt</p>
+                <small>Price: 20.00$</small>
+                <br />
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="nunber" value="1" /></td>
+          <td>20.00$</td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./rp3.jpg" alt="" />
+              <div>
+                <p>Red Printed T-shirt</p>
+                <small>Price: 20.00$</small>
+                <br />
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="nunber" value="1" /></td>
+          <td>20.00$</td>
+        </tr>
+      </table>
+
+      <div class="total-price">
+        <table>
+          <tr>
+            <td>Subtotal</td>
+            <td>$90.00</td>
+          </tr>
+          <tr>
+            <td>Tax</td>
+            <td>$10.00</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>$100.00</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <div>
+                <h3>"Bringing You Closer to the Things You Love."
+                </h3>
+            
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="./ic.jpeg" alt="" />
+            <p>
+                "Discover Quality and Value in Every Click."
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>"Where Fashion <br> Meets Convenience."</h3>
+            
+          </div>
+
+          <div class="footer-col-4">
+            <h3>if you want to know more about us .You can just <br> *GOOGLE US* </h3>
+          </div>
+        </div>
+        <hr />
+        
+      </div>
+    </div>
+    <!-- JS for Toggle menu -->
+    <script src="./e.js"></script>
+  </body>
+</html>
